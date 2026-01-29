@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# Virtual environment
+dbt-venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Credentials - NEVER commit these
+profiles.yml
+*.env

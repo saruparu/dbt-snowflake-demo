@@ -1,0 +1,20 @@
+# dbt Snowflake Profile Configuration
+# 
+# IMPORTANT: This file should be placed at ~/.dbt/profiles.yml
+# Do NOT commit this file to git as it contains credentials!
+#
+# After creating your Snowflake account, replace the placeholder values below.
+
+dbt_sf:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "YOUR_ACCOUNT_IDENTIFIER"  # e.g., "abc12345.us-east-1" or "abc12345.snowflakecomputing.com"
+      user: "YOUR_USERNAME"
+      password: "YOUR_PASSWORD"
+      role: "SYSADMIN"                    # or your specific role
+      database: "DBT_DEMO"
+      warehouse: "DBT_WH"
+      schema: "ANALYTICS"
+      threads: 4

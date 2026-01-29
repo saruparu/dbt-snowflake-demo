@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Staging model for raw customers."
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique
+      - name: email
+        tests:
+          - not_null
+
+  - name: dim_customers
+    description: "Customer dimension built from staging."
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+          - unique

@@ -57,8 +57,8 @@ After login, click your profile icon → **Account Details**:
 
 | Field | Example | Description |
 |-------|---------|-------------|
-| Account Identifier | `ZAJOWGC-HQB87409` | Used in profiles.yml |
-| Login Name | `DGSARU47` | Your username |
+| Account Identifier | `ABC12345-XY67890` | Used in profiles.yml |
+| Login Name | `YOUR_USERNAME` | Your username |
 | Role | `ACCOUNTADMIN` | Admin role for demo |
 
 ---

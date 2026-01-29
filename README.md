@@ -2,6 +2,8 @@
 
 A sample dbt project demonstrating data transformation pipelines with Snowflake, featuring staging and mart models, data quality tests, and auto-generated documentation.
 
+> 📚 **New to dbt?** Check out the [Step-by-Step Setup Guide](SETUP_GUIDE.md) with diagrams!
+
 ## Project Structure
 
 ```
